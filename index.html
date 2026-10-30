@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Hortifruti</title>
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <!-- PyScript -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🍎 Painel Multimodal – Hortifruti</h1>
+    </header>
+    <main>
+        <section class="caixa">
+            <h2>Catálogo</h2>
+            <div id="catalogo"></div>
+        </section>
+
+        <section class="caixa">
+            <h2>Fazer pedido</h2>
+            <div class="linha">
+                <select id="fruta"></select>
+                <input id="qtd" placeholder="Quantidade">
+                <button py-click="calcular">Calcular</button>
+            </div>
+            <div id="resultado"></div>
+        </section>
+
+        <section class="caixa">
+            <h2>Telemetria</h2>
+            <ul id="telemetria"></ul>
+        </section>
+    </main>
+
+    <!-- Carrega o Python (com numpy) -->
+    <script type="py" src="./src/python/main.py" config='{"packages": ["numpy"]}'></script>
+</body>
+</html>
