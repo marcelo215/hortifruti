@@ -1,0 +1,3 @@
+[
+  {"id": "maca", "nome": "Maçã", "preco": 6.50, "estoque": 40, "imagem": "src/assets/maca.svg", "embedding": [0.8, 0.3, 0.6]}
+]
