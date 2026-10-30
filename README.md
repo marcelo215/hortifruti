@@ -101,4 +101,4 @@ Nome: [Marcelo Affonso Fonseca]
 
 RM: [559790]
 
-Repositório: [https://github.com/marcelo215/hortifruti/edit/main]
+Repositório: [https://github.com/marcelo215/hortifruti]
