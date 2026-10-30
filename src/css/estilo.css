@@ -14,3 +14,23 @@ body { font-family: Arial, sans-serif; background: var(--fundo); color: #1f2937;
 header { background: var(--verde-escuro); color: #fff; padding: 24px; text-align: center; }
 
 main { max-width: 1000px; margin: 0 auto; padding: 24px; display: grid; gap: 24px; }
+
+
+#catalogo { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px; }
+
+.fruta { background: var(--card); border-radius: var(--raio); padding: 16px; text-align: center;
+         box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.fruta img { width: 90px; height: 90px; }
+
+section.caixa { background: var(--card); border-radius: var(--raio); padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+h2 { margin-bottom: 12px; color: var(--verde-escuro); }
+
+
+
+
+
+
+
+
+
+
