@@ -97,8 +97,8 @@ Integrantes
 
 Informações de identificação localizadas no arquivo integrantes.txt na raiz do repositório:
 
-Nome: [Seu Nome Aqui]
+Nome: [Marcelo Affonso Fonseca]
 
-RM: [Seu RM Aqui]
+RM: [559790]
 
-Repositório: [Link do Repositório Público no GitHub]
+Repositório: [https://github.com/marcelo215/hortifruti/edit/main]
