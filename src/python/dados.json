@@ -1,3 +1,6 @@
 [
-  {"id": "maca", "nome": "Maçã", "preco": 6.50, "estoque": 40, "imagem": "src/assets/maca.svg", "embedding": [0.8, 0.3, 0.6]}
+  {"id": "maca",    "nome": "Maçã",    "preco": 6.50,  "estoque": 40, "imagem": "src/assets/maca.svg",    "embedding": [0.8, 0.3, 0.6]},
+  {"id": "banana",  "nome": "Banana",  "preco": 5.00,  "estoque": 60, "imagem": "src/assets/banana.svg",  "embedding": [0.9, 0.1, 0.9]},
+  {"id": "laranja", "nome": "Laranja", "preco": 4.00,  "estoque": 50, "imagem": "src/assets/laranja.svg", "embedding": [0.6, 0.7, 0.4]},
+  {"id": "uva",     "nome": "Uva",     "preco": 12.90, "estoque": 25, "imagem": "src/assets/uva.svg",     "embedding": [0.85, 0.4, 0.5]}
 ]
